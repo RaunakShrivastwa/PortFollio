@@ -1,0 +1,187 @@
+.h{
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.h-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.h-left{
+    width: 50%;
+    
+    /* background-color: rgb(0, 128, 255); */
+}
+
+.h-title{
+    font-style: oblique;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 120px;
+    /* padding: 10px; */
+}
+
+.h-name{
+    padding: 3px;
+    font-style: oblique;
+    margin-left: 100px;
+}
+
+.h-desc{
+    padding: 3px;
+    font-style: oblique;
+    margin-left: 100px;
+}
+
+.h-hire{
+   
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid blue;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.h-btn{
+ margin-top: -5px;
+}
+
+.t-text{
+  text-decoration: none;
+  color: white;
+}
+
+.i-title {
+    height: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .i-title-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+  }
+  @keyframes move {
+    25% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    75% {
+      transform: translateY(-150px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  }
+
+  .i-title-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #59b256;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+  }
+
+  .h-social{
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+
+  .h-link{
+    width: 50px;
+    margin: 10px;
+  }
+
+  .h-right{
+     background-color:#59b256;
+     /* clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
+     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+  }
+
+  
+  
+
+  .r-me{
+    text-align: center;
+  
+  }
+
+
+  @media (max-width: 900px) {
+    .h-main{
+        flex-direction: column;
+        
+    }
+
+    .h-left{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      margin-left: 0;
+      justify-items: center;
+      
+    }
+
+   .h-title{
+     margin-left: 0;
+   }
+
+   .h-name{
+    margin-left: 0;
+  }
+
+  .h-desc{
+    margin-left: 0;
+  }
+
+  .h-hire{
+    margin-left: 0;
+  }
+
+  .i-title{
+    display: flex;
+  }
+
+  .i-title-wrapper {
+     text-align: center;
+     margin-top: 20px;
+  }
+
+    .h-social{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .r-me{
+       width: auto;
+       height: auto;  margin-top: 30px;
+    }
+
+    .h-right{
+      margin-top: -100px;
+        clip-path: circle(36.8% at 50% 50%);
+        width: auto;
+        background-color: #59b256;;
+        
+    }
+
+
+
+  }

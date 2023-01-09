@@ -1,0 +1,262 @@
+
+.s {
+ margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.s-top {
+  display: flex;
+  width: 100%;
+
+  height: 40vh;
+  background: rgb(63, 12, 104);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 12, 104, 1) 0%,
+    rgba(72, 96, 122, 1) 8%,
+    rgba(108, 149, 167, 0.9979342078628326) 15%,
+    rgba(146, 58, 163, 1) 31%,
+    rgba(150, 64, 91, 1) 77%,
+    rgba(72, 96, 122, 1) 100%
+  );
+}
+.h-miniImg {
+  width: auto;
+  right: 0;
+  display: flex;
+  text-align: center;
+}
+
+.s-skill{
+  display: flex;
+  flex-direction: row;
+   width: 90%;
+   height: auto;
+    background-color: white;
+   margin-left: 5%;
+   position: absolute;
+   box-shadow: 1px 0px 8px 0px gray;
+   margin-top: -50px;
+   border-radius: 30px;
+}
+
+.s-java{
+  width: 18%;
+  height: 340px;
+  box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+  margin-left: 5.5%;
+  margin-top: 100px;
+  border-radius: 10px;
+  
+}
+
+.s-injava{
+   width: 20%;
+   height: 60px;
+   box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+   margin-left: 7%;
+   margin-top: -40px;
+   border-radius: 8px;
+   
+}
+.s-jimg{
+   width: 60px;
+}
+
+.s-textjavaCenter{
+   display: flex;
+   flex-direction: column;
+  
+   justify-content: center;
+   text-align: center;
+   justify-items: center;
+}
+.s-javaContent{
+   display: flex;
+   justify-content: start;
+   font-size: 20px;
+   /* margin-top: 20px; */
+   margin-left: 20px;
+}
+
+
+.s-marn{
+  width: 18%;
+  height: 340px;
+  box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+  margin-left: 5.5%;
+  margin-top: 100px;
+  border-radius: 10px;
+  
+}
+.s-inmarn{
+  width: 20%;
+  height: 60px;
+  box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+  margin-left: 7%;
+  margin-top: -40px;
+  border-radius: 8px;
+  
+}
+
+.s-mimg{
+  width: 60px;
+ 
+  margin-top: 8px; 
+}
+
+.s-ds{
+  width: 18%;
+  height: 340px;
+  box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+  margin-left: 5.5%;
+  margin-top: 100px;
+  border-radius: 10px;
+  
+}
+.s-inds{
+  width: 20%;
+  height: 60px;
+  box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+  margin-left: 7%;
+  margin-top: -40px;
+  border-radius: 8px;
+  
+}
+
+.s-dsimg{
+  width: 50px;
+  margin-left: 3px;
+}
+
+.s-ui{
+  width: 18%;
+  height: 340px;
+  box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+  margin-left: 5.5%;
+  margin-top: 100px;
+  border-radius: 10px;
+  
+}
+.s-inui{
+  width: 20%;
+  height: 60px;
+  box-shadow: 1px 0px 8px 0px gray;
+  background-color: white;
+  margin-left: 7%;
+  margin-top: -40px;
+  border-radius: 8px;
+  
+}
+.s-uimg{
+  width: 60px;
+  margin-top: 10px;
+}
+.s-title {
+  height: 50px;
+  overflow: hidden;
+  margin-top: 10%;
+  margin-left: 30%;
+  display: flex;
+
+}
+
+.s-title-wrapper {
+
+  height: 100%;
+  margin-top: 40px;
+  animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.s-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+
+  font-style: italic;
+}
+
+@media(max-width: 900px){
+   .s-skill{
+      flex-direction: column;
+   }
+
+   .s-java{
+     width: auto;
+     height: auto;
+     margin-right:20px;
+   }
+   .s-marn{
+    width: auto;
+    height: auto;
+    margin-right:20px;
+  }
+  .s-ds{
+    width: auto;
+    height: auto;
+    margin-right:20px;
+  }
+  .s-db{
+    width: auto;
+    height: auto;
+    margin-right:20px;
+  }
+  .s-ui{
+    width: auto;
+    height: auto;
+    margin-right:20px;
+  }
+
+  .s-title{
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   margin-top: 40%;
+  }
+}
+
+@media(min-width:901px){
+  .s-java{
+    height: auto;
+   
+  }
+  .s-marn{
+    height: auto;
+   
+  }
+  .s-ds{
+    height: auto;
+   
+  }
+  .s-db{
+    height: auto;
+    
+  }
+  .s-ui{
+    height: auto;
+    
+  }
+}
